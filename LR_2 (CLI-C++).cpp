@@ -1,11 +1,12 @@
 #include "pch.h"
 #include "myheaders.h"
 
-int main(array<System::String^>^ args)
+int main(array<String^>^ args)
 {
 	setlocale(LC_ALL, "rus");
 
 	const int rows = 6, cols = 3;
+
 	array<int, 2>^ matrixA = gcnew array<int, 2>(rows, cols);	// создание матрицы A
 	array<int, 2>^ matrixB = gcnew array<int, 2>(rows, cols);	// создание матрицы B
 	array<int>^ arrayC;											// создание массива C
