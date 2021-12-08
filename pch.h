@@ -7,6 +7,8 @@
 #ifndef PCH_H
 #define PCH_H
 
-// Добавьте сюда заголовочные файлы для предварительной компиляции
+#include <array>
+#include <clocale>
+using namespace System;
 
 #endif //PCH_H

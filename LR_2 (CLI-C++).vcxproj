@@ -127,6 +127,9 @@
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayOfMaxElements.h" />
+    <ClInclude Include="myheaders.h" />
+    <ClInclude Include="Output.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
   </ItemGroup>
