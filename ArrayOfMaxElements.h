@@ -1,6 +1,5 @@
 #pragma once
 
-// Получение массива элементов-максимумов в столбцах матрицы
 array<int>^ getArrayOfMaxElements(array<int, 2>^ inputMatrix, const int rows, const int cols)
 {
 	const int ARR_SIZE = 3;

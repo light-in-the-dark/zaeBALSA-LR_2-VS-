@@ -11,4 +11,16 @@
 #include <clocale>
 using namespace System;
 
+// начало
+void start();
+
+// Получение массива элементов-максимумов в столбцах матрицы
+array<int>^ getArrayOfMaxElements(array<int, 2>^ inputMatrix, const int rows, const int cols);
+
+// Вывод полученной матрицы
+void matrixOutput(array<int, 2>^ matrix, const int rows, const int cols, String^ index);
+
+// Вывод массива-максимума для столбцов матрицы
+void maxColsValueOutput(array<int>^ array, const int size, String^ index);
+
 #endif //PCH_H
