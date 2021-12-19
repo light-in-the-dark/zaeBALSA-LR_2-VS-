@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "myheaders.h"
 
+
 Void start()
 {
 	setlocale(LC_ALL, "rus");
