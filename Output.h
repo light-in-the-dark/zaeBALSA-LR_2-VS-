@@ -1,6 +1,6 @@
 #pragma once
 
-void matrixOutput(array<int, 2>^ matrix, const int rows, const int cols, String^ index)
+Void matrixOutput(array<int, 2>^ matrix, const int rows, const int cols, String^ index)
 {
 	{
 		Console::WriteLine(L"Элементы матрицы {0}:", index);
@@ -17,7 +17,7 @@ void matrixOutput(array<int, 2>^ matrix, const int rows, const int cols, String^
 }
 
 
-void maxColsValueOutput(array<int>^ array, const int size, String^ index)
+Void maxColsValueOutput(array<int>^ array, const int size, String^ index)
 {
 	{
 		Console::WriteLine(L"Максимумы столбцов матрицы {0}:", index);
